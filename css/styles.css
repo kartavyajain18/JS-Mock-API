@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:silver;
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+}
+
+.left{
+ 
+  display: flex;
+  width: 100%; 
+  align-items: center;
+  padding: 0 1%;
+}
+
+.right{
+  display: flex;
+  width: 10%;
+  align-items: center;
+}
+
+.navbar{
+  background-color: silver;
+  border: none;
+  width:5vw;
+  height: 5vh;
+  cursor: pointer;
+  font-size: larger;
+}
+
+nav button {
+  margin-left: 10px;
+}
+
+main {
+  margin: 20px;
+}
+
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+#usersTable tr th:nth-child(even){
+  background-color: rgb(236, 232, 232);
+}
+#usersTable tr td:nth-child(even){
+  background-color: rgb(236, 232, 232);
+}
+
+
+.editBtn,.deleteBtn,.editBtn1{
+  width: 30%;
+  height: 5vh;
+  justify-content: center;
+  border: none;
+  border-radius: 5%;
+  padding: 0;
+  margin: 0 2%;
+}
+.deleteBtn{
+  font-size: large;
+  background-color: red;
+  color: white;
+  margin: -2%;
+}
+.editBtn{
+  background-color: skyblue;
+}
+.editBtn1{
+  display: none;
+  background-color: rgb(89, 183, 89);
+  color: white;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+.inputarea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.inputarea button{
+  width: 14.5%;
+  background-color: rgb(42, 121, 241);
+  color: white;
+  border: none;
+  border-radius: 3%;
+  height: 3vh;
+}
+.inputarea select{
+  width: 14%;
+  height: 3.5vh;
+  margin-bottom:1%;
+}
+input{
+  width: 200px;
+  padding: 5px;
+}
